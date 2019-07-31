@@ -1,0 +1,11 @@
+A ajouter dans le pom global ou dans les settings maven:
+
+<profile>
+			<id>neptuneo-external</id>
+			<repositories>
+				<repository>
+					<id>neptuneo-maven-repo</id>
+					<url>https://raw.githubusercontent.com/regisduflo/maven-repo/master</url>
+				</repository>
+			</repositories>
+		</profile>
