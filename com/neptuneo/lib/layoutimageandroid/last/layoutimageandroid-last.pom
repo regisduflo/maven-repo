@@ -25,6 +25,20 @@
 			<artifactId>datatype</artifactId>
 			<version>last</version>
 		</dependency>
+		<dependency>
+			<groupId>com.neptuneo</groupId>
+			<artifactId>ANDROID_SUPPORT</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${ANDROID_SUPPORT}</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo</groupId>
+			<artifactId>ANDROID</artifactId>
+			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${ANDROID}</systemPath>
+		</dependency>
 	</dependencies>
 	<build>
 		<resources>

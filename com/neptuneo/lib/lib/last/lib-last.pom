@@ -19,10 +19,7 @@
 		<module>libAndroidSupportDependencies</module>
 		<module>libAnt</module>
 		<module>libAppBackEnd</module>
-		<!--<module>libAppBackEndGeneratedApplication</module>-->
-		<module>libAppBackEndGenerator</module>
 		<module>libAppFrontEnd</module>
-		<module>libAppFrontEndGeneratedApplication</module>
 		<module>libAppFrontEndWicket</module>
 		<module>libAppMetaModel</module>
 		<module>libAppModel</module>

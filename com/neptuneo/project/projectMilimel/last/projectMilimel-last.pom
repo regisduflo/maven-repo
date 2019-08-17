@@ -54,11 +54,9 @@
 			<systemPath>${NEPTUNEO_REPO}/j-schedule/1.0/scheduling.jar</systemPath>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>NEPTUNEO_REPO_htmlcleaner</artifactId>
-			<version>2.2</version>
-			<scope>system</scope>
-			<systemPath>${NEPTUNEO_REPO}/htmlcleaner/2.2/htmlcleaner-2.2.jar</systemPath>
+			<groupId>net.sourceforge.htmlcleaner</groupId>
+			<artifactId>htmlcleaner</artifactId>
+			<version>2.6.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sun.mail</groupId>
