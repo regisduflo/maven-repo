@@ -16,6 +16,51 @@
 		<ANDROID_SUPPORT>C:/android-sdk/extras/android/support/v4/android-support-v4.jar</ANDROID_SUPPORT>
 		<TOMCAT_HOME>C:/programs/tomcat/apache-tomcat-7.0.50</TOMCAT_HOME>
 	</properties>
+	<modules>
+		<module>neptuneoUtil</module>
+		<module>neptuneoDataType</module>
+		<module>neptuneoLog</module>
+		<module>neptuneoMath</module>
+		<module>neptuneoMail</module>
+		<module>neptuneoReflection</module>
+		<module>neptuneoSchedule</module>
+		<module>neptuneoStuff</module>
+		<module>neptuneoVelocity</module>
+		<module>neptuneoWorkspace</module>
+		<module>neptuneoConfiguration</module>
+		<module>neptuneoCSV</module>
+		<module>neptuneoDatabase</module>
+		<module>neptuneoExcel</module>
+		<module>neptuneoHtml</module>
+		<module>neptuneoManager</module>
+		<module>neptuneoVirus</module>
+		<module>neptuneoApplicationMetaModel</module>
+		<module>neptuneoApplicationModel</module>
+		<module>neptuneoApplicationModelDescriptor</module>
+		<module>neptuneoApplicationWorkflow</module>
+		<module>neptuneoApplicationUI</module>
+		<module>neptuneoApplicationUIWicket</module>
+		<module>neptuneoApplicationBackEnd</module>
+		<module>neptuneoApplicationFrontEnd</module>
+		<module>neptuneoApplicationFrontEndWicket</module>
+		<module>neptuneoCodeGenerator</module>
+	</modules>
+	<repositories>
+		<repository>
+			<id>maven-repository</id>
+			<url>file:///${MAVEN_REPO}</url>
+		</repository>
+		<repository>
+			<id>neptuneo-maven-repo</id>
+			<url>https://github.com/regisduflo/maven-repo/tree/master</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -47,8 +92,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 					<compilerArgument>-Xlint:unchecked</compilerArgument>
 					<compilerArgument>-XprintProcessorInfo</compilerArgument>
 					<compilerArgument>-XprintRounds</compilerArgument>
@@ -56,4 +101,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>neptuneo-maven-repo</id>
+			<url>file://C:/Sync/neptuneo-maven-repo</url>
+		</repository>
+	</distributionManagement>
 </project>
