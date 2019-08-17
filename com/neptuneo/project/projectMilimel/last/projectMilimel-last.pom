@@ -12,44 +12,49 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>log</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>dataType</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>mail</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>manager</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>configuration</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>schedule</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>NEPTUNEO_REPO_j-schedule_1.0_scheduling</artifactId>
 			<version>0.0.1</version>
 			<scope>system</scope>
 			<systemPath>${NEPTUNEO_REPO}/j-schedule/1.0/scheduling.jar</systemPath>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>NEPTUNEO_REPO_htmlcleaner</artifactId>
 			<version>2.2</version>
 			<scope>system</scope>

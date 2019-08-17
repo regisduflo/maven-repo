@@ -12,7 +12,7 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>

@@ -12,12 +12,12 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.project</groupId>
 			<artifactId>projectZipper</artifactId>
 			<version>last</version>
 		</dependency>

@@ -17,22 +17,22 @@
 			<version>3.4.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>math</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>velocity</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>workspace</artifactId>
 			<version>last</version>
 		</dependency>

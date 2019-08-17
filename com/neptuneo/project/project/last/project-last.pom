@@ -12,16 +12,20 @@
 		</repository>
 	</distributionManagement>
 	<modules>
+		<!--<module>projectAppGeneratorOld</module>-->
 		<module>projectCEIDF</module>
 		<module>projectCodeTranslator</module>
 		<module>projectDropboxDownloader</module>
+		<module>projectEclipseAdministration</module>
 		<module>projectFileManager</module>
 		<module>projectHsqldbGui</module>
+		<!--<module>projectMavenImporter</module>-->
 		<module>projectMetadataExtractor</module>
 		<module>projectMilimel</module>
 		<module>projectSmartCard</module>
 		<module>projectSync</module>
 		<module>projectVernimmen</module>
+		<module>projectVirus</module>
 		<module>projectWifiConnector</module>
 		<module>projectZipper</module>
 	</modules>

@@ -30,7 +30,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo</groupId>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
