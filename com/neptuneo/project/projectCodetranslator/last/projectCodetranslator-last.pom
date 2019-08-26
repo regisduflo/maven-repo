@@ -27,6 +27,11 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
+			<groupId>com.neptuneo.dart</groupId>
+			<artifactId>dartlibdart</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>velocity</artifactId>
 			<version>last</version>

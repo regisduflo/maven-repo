@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>datatype</artifactId>
+			<artifactId>datatype</artifactId>  
 			<version>last</version>
 		</dependency>
 		<dependency>

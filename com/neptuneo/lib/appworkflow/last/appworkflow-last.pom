@@ -35,16 +35,6 @@
 			<artifactId>appmodel</artifactId>
 			<version>last</version>
 		</dependency>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>velocity</artifactId>
-			<version>last</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.velocity</groupId>
-			<artifactId>velocity</artifactId>
-			<version>1.7</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<resources>
