@@ -16,6 +16,7 @@
 		<module>expenses</module>
 		<module>kywwy</module>
 		<module>taskmanagement</module>
+		<module>loto</module>
 	</modules>
 	<dependencies>
 		<dependency>
