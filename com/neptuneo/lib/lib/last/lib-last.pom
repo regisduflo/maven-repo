@@ -35,12 +35,6 @@
 		<module>libHtml</module>
 		<module>libJavaProjectGenerator</module>
 		<module>libJavaUtil</module>
-		<module>libLayout</module>
-		<module>libLayoutDesign</module>
-		<module>libLayoutImage</module>
-		<module>libLayoutImageAndroid</module>
-		<module>libLayoutPdf</module>
-		<module>libLayoutSwing</module>
 		<module>libLog</module>
 		<module>libMail</module>
 		<module>libManager</module>
