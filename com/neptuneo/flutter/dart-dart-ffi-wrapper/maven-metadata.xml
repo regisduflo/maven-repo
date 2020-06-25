@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.neptuneo.flutter</groupId>
+  <artifactId>dart-dart-ffi-wrapper</artifactId>
+  <versioning>
+    <release>last</release>
+    <versions>
+      <version>last</version>
+    </versions>
+    <lastUpdated>20200610192612</lastUpdated>
+  </versioning>
+</metadata>
