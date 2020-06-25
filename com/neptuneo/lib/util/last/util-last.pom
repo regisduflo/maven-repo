@@ -11,11 +11,6 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>commons-codec</groupId>
-			<artifactId>commons-codec</artifactId>
-			<version>1.5</version>
-		</dependency>
-		<dependency>
 			<groupId>com.github.junrar</groupId>
 			<artifactId>junrar</artifactId>
 			<version>0.7</version>
@@ -34,6 +29,36 @@
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20180130</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>lang</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>intl</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>file</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>path</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>resource</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>logging</artifactId>
+			<version>last</version>
 		</dependency>
 	</dependencies>
 	<build>

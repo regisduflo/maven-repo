@@ -20,6 +20,8 @@
 		<module>libAnt</module>
 		<module>libAppBackEnd</module>
 		<module>libAppFrontEnd</module>
+		<module>libAppFrontEndExcel</module>
+		<module>libAppFrontEndSpring</module>
 		<module>libAppFrontEndWicket</module>
 		<module>libAppMetaModel</module>
 		<module>libAppModel</module>
@@ -32,18 +34,23 @@
 		<module>libDatabase</module>
 		<module>libDataType</module>
 		<module>libExcel</module>
+		<module>libFileAnalysis</module>
 		<module>libHtml</module>
 		<module>libJavaProjectGenerator</module>
 		<module>libJavaUtil</module>
+		<module>libLang</module>
 		<module>libLog</module>
 		<module>libMail</module>
 		<module>libManager</module>
 		<module>libMath</module>
+		<module>libProcess</module>
 		<module>libReflection</module>
 		<module>libSchedule</module>
 		<module>libUtil</module>
 		<module>libVelocity</module>
 		<module>libWorkspace</module>
+		<module>libXML</module>
+		<module>libZIP</module>
 	</modules>
 	<dependencies>
 		<dependency>
@@ -71,6 +78,18 @@
 			</resource>
 		</resources>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

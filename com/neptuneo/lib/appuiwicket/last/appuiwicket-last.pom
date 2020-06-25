@@ -17,6 +17,16 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>lang</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>zip</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appui</artifactId>
 			<version>last</version>
 		</dependency>
@@ -43,6 +53,16 @@
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appfrontend</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>appfrontendspring</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>appfrontendexcel</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>

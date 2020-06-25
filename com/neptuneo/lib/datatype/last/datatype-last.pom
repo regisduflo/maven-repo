@@ -21,6 +21,21 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>lang</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>path</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>resource</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
 			<groupId>com.sun.mail</groupId>
 			<artifactId>mailapi</artifactId>
 			<version>1.5.6</version>

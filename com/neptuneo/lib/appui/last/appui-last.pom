@@ -17,6 +17,11 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>lang</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>datatype</artifactId>
 			<version>last</version>
 		</dependency>
@@ -28,6 +33,26 @@
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appmodel</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>appmetamodel</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>logging</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>path</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>resource</artifactId>
 			<version>last</version>
 		</dependency>
 	</dependencies>

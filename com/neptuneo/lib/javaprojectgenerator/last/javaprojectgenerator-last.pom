@@ -22,7 +22,17 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>zip</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>manager</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>process</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
@@ -43,6 +53,11 @@
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>datatype</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>xml</artifactId>
 			<version>last</version>
 		</dependency>
 	</dependencies>

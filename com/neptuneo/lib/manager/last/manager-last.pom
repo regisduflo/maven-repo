@@ -31,6 +31,16 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-configuration2</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>28.1-jre</version>
+		</dependency>
+		<dependency>
 			<groupId>com.neptuneo</groupId>
 			<artifactId>NEPTUNEO_REPO_j-schedule_1.0_scheduling</artifactId>
 			<version>0.0.1</version>
