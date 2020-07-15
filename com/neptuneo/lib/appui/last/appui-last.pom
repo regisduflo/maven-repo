@@ -41,6 +41,11 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>appfrontend</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
 			<groupId>com.neptuneo.flutter</groupId>
 			<artifactId>logging</artifactId>
 			<version>last</version>
@@ -53,6 +58,16 @@
 		<dependency>
 			<groupId>com.neptuneo.flutter</groupId>
 			<artifactId>resource</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>http</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.flutter</groupId>
+			<artifactId>dart</artifactId>
 			<version>last</version>
 		</dependency>
 	</dependencies>

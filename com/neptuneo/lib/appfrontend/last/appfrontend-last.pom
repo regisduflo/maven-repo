@@ -48,11 +48,7 @@
 			<artifactId>appmodel</artifactId>
 			<version>last</version>
 		</dependency>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>appui</artifactId>
-			<version>last</version>
-		</dependency>
+	
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appworkflow</artifactId>
