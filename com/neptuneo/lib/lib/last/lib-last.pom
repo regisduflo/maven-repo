@@ -11,7 +11,22 @@
 			<url>${MAVEN_REMOTE_REPO}</url>
 		</repository>
 	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>neptuneo-maven-repo</id>
+			<url>https://raw.githubusercontent.com/regisduflo/maven-repo/master</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+		<java.version>1.8</java.version>
 		<spring.boot.version>2.0.0.RELEASE</spring.boot.version>
 	</properties>
 	<modules>
