@@ -10,7 +10,8 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<properties>
-		<wicket-version>8.0.0-M7</wicket-version>
+		<wicket-spring-boot-version>2.1.2</wicket-spring-boot-version> 
+		<wicket-version>8.0.0-M9</wicket-version>
 		<jersey-version>2.25</jersey-version>
 	</properties>
 	<dependencies>
@@ -29,7 +30,7 @@
 		<dependency>
 			<groupId>com.giffing.wicket.spring.boot.starter</groupId>
 			<artifactId>wicket-spring-boot-starter</artifactId>
-			<version>2.1.0</version>
+			<version>${wicket-spring-boot-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
