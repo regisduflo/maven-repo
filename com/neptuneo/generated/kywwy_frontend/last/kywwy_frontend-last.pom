@@ -59,11 +59,6 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>math</artifactId>
-			<version>last</version>
-		</dependency>
-		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-client</artifactId>
 			<version>${jersey-version}</version>

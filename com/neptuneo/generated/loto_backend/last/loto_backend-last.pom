@@ -49,6 +49,21 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>xml</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>zip</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>lang</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>excel</artifactId>
 			<version>last</version>
 		</dependency>

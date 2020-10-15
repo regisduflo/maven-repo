@@ -50,17 +50,17 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>appfrontendspring</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appfrontendwicket</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appuiwicket</artifactId>
-			<version>last</version>
-		</dependency>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>math</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
