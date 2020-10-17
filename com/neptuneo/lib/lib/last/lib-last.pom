@@ -38,11 +38,13 @@
 		<module>libAppFrontEndExcel</module>
 		<module>libAppFrontEndSpring</module>
 		<module>libAppFrontEndWicket</module>
+		<module>libAppFrontEndFlutter</module>
 		<module>libAppMetaModel</module>
 		<module>libAppModel</module>
 		<module>libAppModelDescriptor</module>
 		<module>libAppUI</module>
 		<module>libAppUIWicket</module>
+		<module>libAppUIFlutter</module>
 		<module>libAppWorkflow</module>
 		<module>libConfiguration</module>
 		<module>libCSV</module>
@@ -54,13 +56,14 @@
 		<module>libJavaProjectGenerator</module>
 		<module>libJavaUtil</module>
 		<module>libLang</module>
+		<module>libLangFlutterNeptuneo</module>
 		<module>libLog</module>
 		<module>libMail</module>
 		<module>libManager</module>
 		<module>libMath</module>
 		<module>libProcess</module>
 		<module>libReflection</module>
-		<module>libSchedule</module>
+		<module>libRestClient</module> 
 		<module>libUtil</module>
 		<module>libVelocity</module>
 		<module>libWorkspace</module>

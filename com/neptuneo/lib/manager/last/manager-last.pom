@@ -22,11 +22,6 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>schedule</artifactId>
-			<version>last</version>
-		</dependency>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
@@ -39,14 +34,7 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>28.1-jre</version>
-		</dependency>
-		<dependency>
-			<groupId>com.neptuneo</groupId>
-			<artifactId>NEPTUNEO_REPO_j-schedule_1.0_scheduling</artifactId>
-			<version>0.0.1</version>
-			<scope>system</scope>
-			<systemPath>${NEPTUNEO_REPO}/j-schedule/1.0/scheduling.jar</systemPath>
-		</dependency>
+		</dependency> 
 	</dependencies>
 	<build>
 		<resources>

@@ -9,22 +9,10 @@
 		<version>last</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<dependencies>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>NEPTUNEO_REPO_j-schedule_1.0_scheduling</artifactId>
-			<version>0.0.1</version>
-			<scope>system</scope>
-			<systemPath>${NEPTUNEO_REPO}/j-schedule/1.0/scheduling.jar</systemPath>
-		</dependency>
+	<dependencies> 
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>manager</artifactId>
-			<version>last</version>
-		</dependency>
-		<dependency>
-			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>schedule</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
