@@ -15,6 +15,7 @@
 		<!--<module>projectAppGeneratorOld</module>-->
 		<module>projectCEIDF</module>
 		<module>projectCodeTranslator</module>
+		<module>projectFlutterSourceImporter</module>
 		<module>projectDropboxDownloader</module>
 		<module>projectEclipseAdministration</module>
 		<module>projectFileManager</module>
@@ -32,8 +33,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
+			<version>4.12</version> 
 		</dependency>
 	</dependencies>
 	<build>
@@ -56,6 +56,18 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
@@ -64,6 +76,8 @@
 					<compilerArgument>-Xlint:unchecked</compilerArgument>
 					<compilerArgument>-XprintProcessorInfo</compilerArgument>
 					<compilerArgument>-XprintRounds</compilerArgument>
+                    <compilerArgument>-XDignore.symbol.file</compilerArgument>
+					<fork>true</fork>
 				</configuration>
 			</plugin>
 		</plugins>

@@ -12,6 +12,11 @@
 	</parent>
 	<dependencies>
 		<dependency>
+			<groupId>org.yaml</groupId>
+			<artifactId>snakeyaml</artifactId>
+			<version>1.21</version>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
@@ -19,7 +24,7 @@
 		<dependency>
 			<groupId>com.github.javaparser</groupId>
 			<artifactId>javaparser-core</artifactId>
-			<version>3.4.2</version>
+			<version>3.8.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
@@ -32,13 +37,13 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>com.neptuneo.dart</groupId>
-			<artifactId>dartlibdart</artifactId>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>velocity</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
-			<artifactId>velocity</artifactId>
+			<artifactId>lang</artifactId>
 			<version>last</version>
 		</dependency>
 		<dependency>
@@ -47,22 +52,47 @@
 			<version>last</version>
 		</dependency>
 		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20180130</version>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-model</artifactId>
+			<version>3.6.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>2.5.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.5.0</version>
+			<groupId>groupid</groupId>
+			<artifactId>artifiactId</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${java.home}/lib/rt.jar</systemPath>
 		</dependency>
 	</dependencies>
 	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
 		<resources>
 			<resource>
 				<directory>src/main/java</directory>
@@ -72,6 +102,11 @@
 					<include>**/*.properties</include>
 					<include>**/*.html</include>
 					<include>**/*.ini</include>
+					<include>**/*.classpath</include>
+					<include>**/*.xml</include>
+					<include>**/*.zip</include>
+					<include>**/*.project</include>
+					<include>**/*.gitignore</include>
 				</includes>
 			</resource>
 			<resource>

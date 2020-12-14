@@ -10,11 +10,82 @@
 		<version>last</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
+	<repositories>
+		<repository>
+			<id>jaudiotagger-repository</id>
+			<url>https://dl.bintray.com/ijabz/maven</url>
+		</repository>
+	</repositories>
 	<dependencies>
+		<dependency>
+			<groupId>net.jthink</groupId>
+			<artifactId>jaudiotagger</artifactId>
+			<version>2.2.3</version>
+		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>util</artifactId>
 			<version>last</version>
 		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>excel</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>csv</artifactId>
+			<version>last</version>
+		</dependency>
 	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.txt</include>
+					<include>**/*.vm</include>
+					<include>**/*.properties</include>
+					<include>**/*.html</include>
+					<include>**/*.ini</include>
+					<include>**/*.classpath</include>
+					<include>**/*.xml</include>
+					<include>**/*.zip</include>
+					<include>**/*.project</include>
+					<include>**/*.gitignore</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
 </project>
