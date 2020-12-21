@@ -19,6 +19,7 @@
 		<module>projectDropboxDownloader</module>
 		<module>projectEclipseAdministration</module>
 		<module>projectFileManager</module>
+		<module>projectGmailRestApi</module>
 		<module>projectHsqldbGui</module>
 		<!--<module>projectMavenImporter</module>-->
 		<module>projectMetadataExtractor</module>
