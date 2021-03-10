@@ -31,7 +31,6 @@
 	</properties>
 	<modules>
 		<module>libActiveMQClient</module>
-		<module>libAndroidSupportDependencies</module>
 		<module>libAnt</module>
 		<module>libAppBackEnd</module>
 		<module>libAppFrontEnd</module>
