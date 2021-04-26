@@ -32,6 +32,7 @@
 	<modules>
 		<module>libActiveMQClient</module>
 		<module>libAnt</module>
+		<module>libAppSpring</module>
 		<module>libAppBackEnd</module>
 		<module>libAppFrontEnd</module>
 		<module>libAppFrontEndExcel</module>
