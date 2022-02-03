@@ -27,6 +27,11 @@
 		</dependency>
 		<dependency>
 			<groupId>com.neptuneo.lib</groupId>
+			<artifactId>velocity</artifactId>
+			<version>last</version>
+		</dependency>
+		<dependency>
+			<groupId>com.neptuneo.lib</groupId>
 			<artifactId>appui</artifactId>
 			<version>last</version>
 		</dependency>
